@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-05-07 20:54:11.066376 by osmWebWizard.py v1_22_0+0002-63e50f52594
+<configuration>
+    <net-file value="E:\SUMO\tools\2025-05-07-20-53-58\osm.net.xml.gz"/>
+    <ptlines-file value="E:\SUMO\tools\2025-05-07-20-53-58\osm_ptlines.xml"/>
+    <ptstops-file value="E:\SUMO\tools\2025-05-07-20-53-58\osm_stops.add.xml"/>
+    <output-file value="E:\SUMO\tools\2025-05-07-20-53-58\osm_pt.rou.xml"/>
+    <stopinfos-file value="E:\SUMO\tools\2025-05-07-20-53-58\stopinfos.xml"/>
+    <routes-file value="E:\SUMO\tools\2025-05-07-20-53-58\vehroutes.xml"/>
+    <trips-file value="E:\SUMO\tools\2025-05-07-20-53-58\trips.trips.xml"/>
+    <end value="600.0"/>
+    <min-stops value="0"/>
+    <extend-to-fringe value="True"/>
+    <random-begin value="True"/>
+    <seed value="42"/>
+    <ignore-errors value="True"/>
+    <vtype-prefix value="pt_"/>
+    <verbose value="True"/>
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="pt_bus" vClass="bus"/>
+    <vType id="pt_tram" vClass="tram"/>
+    <vType id="pt_train" vClass="rail"/>
+    <vType id="pt_subway" vClass="subway"/>
+    <vType id="pt_light_rail" vClass="rail_urban"/>
+    <vType id="pt_monorail" vClass="rail_urban"/>
+    <vType id="pt_trolleybus" vClass="bus"/>
+    <vType id="pt_minibus" vClass="bus"/>
+    <vType id="pt_share_taxi" vClass="taxi"/>
+    <vType id="pt_aerialway" vClass="cable_car" length="2.5" width="2" personCapacity="4"/>
+    <vType id="pt_ferry" vClass="ship"/>
+    <route id="pt_train_50:0" edges="273358244" >
+        <stop busStop="6436451255" duration="20" until="31.0"/> <!-- Kristiansand -->
+    </route>
+    <route id="pt_train_50:1" edges="273358244" >
+        <stop busStop="6436451255" duration="20" until="31.0"/> <!-- Kristiansand -->
+    </route>
+    <route id="pt_train_F5:0" color="0,84,166" edges="41973980#0 41973980#1" >
+        <stop busStop="5594450719" duration="20" until="31.0"/> <!-- Kristiansand -->
+    </route>
+    <route id="pt_train_F5:1" color="0,84,166" edges="41973980#0 41973980#1" >
+        <stop busStop="5594450719" duration="20" until="31.0"/> <!-- Kristiansand -->
+    </route>
+    <route id="pt_train_F5:2" color="0,84,166" edges="686689403" >
+        <stop busStop="6009935309" duration="20" until="31.0"/> <!-- Kristiansand -->
+    </route>
+    <route id="pt_train_F5:3" color="0,84,166" edges="686689403" >
+        <stop busStop="6009935309" duration="20" until="31.0"/> <!-- Kristiansand -->
+    </route>
+    <route id="pt_train_F5:4" color="0,84,166" edges="686689403" >
+        <stop busStop="6009935309" duration="20" until="31.0"/> <!-- Kristiansand -->
+    </route>
+    <route id="pt_train_F5:5" color="0,84,166" edges="686689403" >
+        <stop busStop="6009935309" duration="20" until="31.0"/> <!-- Kristiansand -->
+    </route>
+    <flow id="pt_train_50:0" type="pt_train" route="pt_train_50:0" begin="131.0" end="731.0" period="600" line="50:0" >
+        <param key="completeness" value="0.08"/>
+    </flow>
+    <flow id="pt_train_50:1" type="pt_train" route="pt_train_50:1" begin="162.0" end="762.0" period="600" line="50:1" >
+        <param key="completeness" value="0.08"/>
+    </flow>
+    <flow id="pt_train_F5:0" type="pt_train" route="pt_train_F5:0" begin="165.0" end="765.0" period="600" line="F5:0" >
+        <param key="name" value="F5 Kristiansand → Oslo sentralstasjon"/>
+        <param key="completeness" value="0.07"/>
+    </flow>
+    <flow id="pt_train_F5:1" type="pt_train" route="pt_train_F5:1" begin="253.0" end="853.0" period="600" line="F5:1" >
+        <param key="name" value="F5 Oslo sentralstasjon → Kristiansand"/>
+        <param key="completeness" value="0.07"/>
+    </flow>
+    <flow id="pt_train_F5:2" type="pt_train" route="pt_train_F5:2" begin="383.0" end="983.0" period="600" line="F5:2" >
+        <param key="name" value="F5 Oslo sentralstasjon → Kristiansand → Stavanger"/>
+        <param key="completeness" value="0.05"/>
+    </flow>
+    <flow id="pt_train_F5:3" type="pt_train" route="pt_train_F5:3" begin="414.0" end="1014.0" period="600" line="F5:3" >
+        <param key="name" value="F5 Stavanger → Kristiansand → Oslo Sentralstasjon"/>
+        <param key="completeness" value="0.04"/>
+    </flow>
+    <flow id="pt_train_F5:4" type="pt_train" route="pt_train_F5:4" begin="445.0" end="1045.0" period="600" line="F5:4" >
+        <param key="name" value="F5 Stavanger → Kristiansand → Oslo Sentralstasjon"/>
+        <param key="completeness" value="0.04"/>
+    </flow>
+    <flow id="pt_train_F5:5" type="pt_train" route="pt_train_F5:5" begin="535.0" end="1135.0" period="600" line="F5:5" >
+        <param key="name" value="F5 Oslo sentralstasjon → Kristiansand → Stavanger"/>
+        <param key="completeness" value="0.04"/>
+    </flow>
+</routes>

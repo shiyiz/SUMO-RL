@@ -1,0 +1,13 @@
+Warning: At actuated tlLogic 'cluster_1830675579_365587551_4749231064_4749231099_#5more', linkIndex 15,16,17 has no controlling detector.
+Warning: At actuated tlLogic 'cluster_1834650191_365584535_365587604_365818793_#2more', linkIndex 6,7,8 has no controlling detector.
+Warning: At actuated tlLogic 'cluster_265710548_454177597_4749231096_4749231097_#2more', linkIndex 15,16,17 has no controlling detector.
+Warning: At actuated tlLogic 'cluster_365603442_365818802_5564742494_5564748382_#4more', actuated phase 3 has no controlling detector.
+Warning: At actuated tlLogic 'cluster_365603442_365818802_5564742494_5564748382_#4more', linkIndex 7,8,9,10,14,15,16 has no controlling detector.
+Warning: At actuated tlLogic 'cluster_519838456_5564748447_5564748448_6913714808_#1more', linkIndex 6,7,8 has no controlling detector.
+Warning: Vehicle '0_ferry_E_39:0' is not allowed to stop on lane '375649997_0'.
+Warning: Vehicle '1_ferry_E_39:1' is not allowed to stop on lane '375649997_0'.
+Warning: Vehicle '2_ferry_Emden_-_Kristiansand:0' is not allowed to stop on lane '375649997_0'.
+Warning: busStop '5594450719' on lane '41973980#0_0' is too short for vehicle '5_train_F5:0'.
+Warning: Vehicle '0_ferry_E_39:0' is not allowed to depart on any lane of edge '375649997'.
+Warning: Vehicle '1_ferry_E_39:1' is not allowed to depart on any lane of edge '375649997'.
+Warning: Vehicle '2_ferry_Emden_-_Kristiansand:0' is not allowed to depart on any lane of edge '375649997'.
