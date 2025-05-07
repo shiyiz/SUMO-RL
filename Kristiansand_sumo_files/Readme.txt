@@ -1,1 +1,0 @@
-Kristiansand sumo config files
